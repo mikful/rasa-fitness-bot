@@ -90,3 +90,9 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: out_of_scope
+  examples: |
+    - How do I get fit?
+    - How do I lose weight?
+    - Whats the best food to lose belly fat?
