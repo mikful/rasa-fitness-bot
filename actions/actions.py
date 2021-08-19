@@ -50,10 +50,10 @@ class GoogleSearchAction(Action):
 
         search = GoogleSearch(params)
         results = search.get_dict()
-        # print(f'Here an idea: {"".join(results["answer_box"]["list"])}')
+        # print(f'Here's an idea: {"".join(results["answer_box"]["list"])}')
         # print(f'Please see the following link for more information: {results["answer_box"]["link"]}')
         
-        dispatcher.utter_message(f'Here an idea: {"".join(results["answer_box"]["list"])}')
-        dispatcher.utter_message(f'Please see the following link for more information: {results["answer_box"]["link"]}')
+        dispatcher.utter_message(f"Here's an idea: {"".join(results["answer_box"]["list"])}")
+        dispatcher.utter_message(f"Please see the following link for more information: {results["answer_box"]["link"]}")
 
         return []
