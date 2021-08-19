@@ -2,7 +2,9 @@
 
 ## Install
 
-See requirements.txt for conda env installation instructions.
+See requirements.txt for conda env installation instructions:
+
+`conda create --name <env-name> --file requirements.txt`
 
 ## Usage
 
