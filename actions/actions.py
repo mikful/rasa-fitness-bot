@@ -53,7 +53,7 @@ class GoogleSearchAction(Action):
         # print(f'Here's an idea: {"".join(results["answer_box"]["list"])}')
         # print(f'Please see the following link for more information: {results["answer_box"]["link"]}')
         
-        dispatcher.utter_message(f'How about this?: {"".join(results["answer_box"]["list"])}')
+        dispatcher.utter_message(f'Here\'s an idea: {"".join(results["answer_box"]["list"])}')
         dispatcher.utter_message(f'Please see the following link for more information: {results["answer_box"]["link"]}')
 
         return []
